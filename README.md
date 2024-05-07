@@ -49,3 +49,5 @@ In order for police to get this item, just add it to the police armory list or m
 ## [image]
 
 This folder has the image for the item. Drag and drop the png into your inventory image folder.
+
+**You have permission to use this in your server and edit for your personal needs but are not allowed to redistribute.**
