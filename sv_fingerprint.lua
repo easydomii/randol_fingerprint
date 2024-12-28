@@ -1,3 +1,9 @@
+
+if GetResourceState("es_extended") ~= "missing" then
+
+end
+
+if GetResourceState("qb-core") ~= "missing" then
 QBCore.Functions.CreateUseableItem('policetablet', function(source)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
@@ -24,3 +30,5 @@ lib.callback.register('randol_fingerprint:server:getPlayerInfo', function(source
 
     return Target.PlayerData
 end)
+
+end
